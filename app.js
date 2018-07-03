@@ -11,5 +11,7 @@ var output = getNthElement([1, 3, 5], 1);
 console.log(output); // --> 3 */
 
 function getNthElement(array,n){
-    
+    return array[n]
+
 }
+console.log(getNthElement([1,3,5], 1));//retornara 3
